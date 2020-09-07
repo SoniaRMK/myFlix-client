@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=development parcel src/index.html --open",
-    "build": "NODE_ENV=production parcel build src/index.html --public-url ./"
+    "start": "NODE_ENV=development parcel ./src/index.html --open",
+    "build": "NODE_ENV=production parcel build ./src/index.html"
   },
   "repository": {
     "type": "git",
