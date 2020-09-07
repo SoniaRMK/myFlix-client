@@ -1,0 +1,54 @@
+$primarycolor: #ffffff;
+$secondarycolor: #000000;
+$tertiarycolor: #030c61;
+
+.profile-title {
+  font-size: 5em;
+  text-align: center;
+  padding-top: 0.8em;
+  padding-bottom: 0.5em;
+}
+
+.profile-view {
+  margin: 0 auto;
+}
+
+.profile-back {
+  float: right;
+  padding: 0.2em;
+}
+
+.profile-text-first {
+  padding-top: 3.5em;
+}
+
+.profile-text {
+  padding-bottom: 0.8em;
+  letter-spacing: 1.5px;
+}
+
+.profile-button {
+  margin: 0.5em;
+}
+
+.favorites-title {
+  font-size: 3em;
+  text-align: left;
+  padding: 1.5em 0em .5em 1.5em;
+}
+
+.fav-movies {
+  display: inline-block;
+}
+
+.remove-fav {
+  float: right;
+}
+
+@media all and (max-width: 1000px) {
+
+  .profile-view {
+    max-width: 90%;
+  }
+
+}
