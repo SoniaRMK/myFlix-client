@@ -100,7 +100,7 @@ export class MainView extends React.Component {
       );
     } else {
       return (
-        <Router basename="/client">
+        <Router>
           <Navbar collapseOnSelect expand="lg" bg="custom" variant="dark" className="fixed-top navbar-main">
             <Navbar.Brand as={Link} to="/" className="navbar-brand">SuperFlix!</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
