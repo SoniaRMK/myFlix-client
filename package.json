@@ -32,9 +32,6 @@
     "cssnano": "^4.1.10",
     "sass": "^1.26.8"
   },
-  "engines": {
-    "node": "12.x"
-  },
   "bugs": {
     "url": "https://github.com/SoniaRMK/myFlix-client/issues"
   },
