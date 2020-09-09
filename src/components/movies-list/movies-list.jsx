@@ -16,7 +16,7 @@ const mapStateToProps = state => {
 const onLogOut = (e) => {
   localStorage.removeItem('token');
   localStorage.removeItem('user');
-  window.open('/client', '_self');
+  window.open('/', '_self');
 };
 
 export function MoviesList(props) {

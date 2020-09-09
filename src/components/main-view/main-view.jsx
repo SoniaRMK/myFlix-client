@@ -74,7 +74,7 @@ export class MainView extends React.Component {
   onLogOut() {
     localStorage.removeItem('token');
     localStorage.removeItem('user');
-    window.open('/client', '_self');
+    window.open('/', '_self');
   }
 
   render() {
@@ -89,7 +89,7 @@ export class MainView extends React.Component {
 
     if (!user) {
       return (
-        <Router basename="/client">
+        <Router>
           <div className="main-view">
             <Container>
               <Route exact path="/" render={() => <LoginView onLoggedIn={user => this.onLoggedIn(user)} />} />

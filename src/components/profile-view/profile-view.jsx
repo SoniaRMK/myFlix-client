@@ -62,7 +62,7 @@ export class ProfileView extends React.Component {
     }).then((res) =>
       console.log(res));
     localStorage.removeItem('token');
-    window.open('/client', '_self');
+    window.open('/', '_self');
   }
 
   deleteFavorites(movie) {
@@ -79,7 +79,7 @@ export class ProfileView extends React.Component {
   onLogOut() {
     localStorage.removeItem('token');
     localStorage.removeItem('user');
-    window.open('/client', '_self');
+    window.open('/', '_self');
   }
 
   render() {

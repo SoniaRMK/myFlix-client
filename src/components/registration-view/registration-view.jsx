@@ -28,7 +28,7 @@ export function RegistrationView(props) {
         const data = res.data;
         console.log(data);
         alert('Your account has been created - you can now Login.');
-        window.open('/client', '_self');
+        window.open('/', '_self');
       }).catch((e) => {
         console.log('registration error');
         alert('There was an error with your registration.');

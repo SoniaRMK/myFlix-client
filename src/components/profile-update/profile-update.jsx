@@ -37,7 +37,7 @@ export function ProfileUpdate(props) {
       const data = res.data;
       localStorage.setItem("user", data.Username);
       alert('Your profile was successfully updated.');
-      window.open("/client/users/:userId", "_self");
+      window.open("/users/:userId", "_self");
     })
       .catch((e) => {
         console.log(e);
