@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=development parcel ./src/index.html --open",
-    "build": "NODE_ENV=production parcel build ./src/index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,6 +15,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "moment": "^2.27.0",
+    "parcel-bundler": "^1.10.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
